@@ -70,7 +70,7 @@ Finish up by staging your Dockerfile, commiting it, and pushing it.
 
 To make the image accessible other people, use the Docker Desktop app, navigate to your image, and select Push to Hub.
 
-<img src="docker-desktop-push.png" width="600">
+<img src="./images/docker-desktop-push.png" width="600">
 
 Alternatively you can use the terminal.
 

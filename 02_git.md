@@ -4,7 +4,7 @@
 
 Go to Your Repositories.
 
-<img src="your-repositories.png" width="180">
+<img src="./images/your-repositories.png" width="180">
 
 Click New. For repository name, you can type what ever you want, for this examples we'll use `learning-project`. For visibility select Public to make future access easier. 
 
@@ -16,7 +16,7 @@ Click Create repository.
 
 In the repository page for `learning-project`, click Code, and select HTTPS. Copy that URL. For example, my URL is `https://github.com/Manifaust/learning-project.git`.
 
-<img src="clone-url.png" width="350">
+<img src="./images/clone-url.png" width="350">
 
 Clone the `learning-project` repo using the `git` CLI or the desktop app. You'll need to type in your password.
 
@@ -35,11 +35,11 @@ In your text editor, open up your learning-project folder.
 
 To make that easier you should probably put your workspace folder as a favorite in the Finder sidebar. First open up Finder, then go to preferences. In the Sidebar pane, click the checkbox to your home folder (it has your name on it).
 
-<img src="finder-sidebar-preferences.png" width="270">
+<img src="./images/finder-sidebar-preferences.png" width="270">
 
 Now your home folder will be on the Favorite section of your Finder's sidebar. Click on the home folder icon and you'll see the workspace directory you created earlier. Click-and-drag the workspace directory into the sidebar as well. This makes navigating to the workspace easier when using desktop applications.
 
-<img src="finder-sidebar.png" width="130">
+<img src="./images/finder-sidebar.png" width="130">
 
 ## Make edits using a text editor
 
