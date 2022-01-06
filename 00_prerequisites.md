@@ -1,6 +1,6 @@
 # Prerequisities
 
-1. Have a [Github](http://github.com) account.
+1. Have a [GitHub](http://github.com) account.
 1. Some way to work with git repositories. Either the [`git` CLI](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) or a desktop app such as [Git Fork](https://git-fork.com/).
 1. A text editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/)
 1. Install [Go](https://go.dev/) on your computer.
