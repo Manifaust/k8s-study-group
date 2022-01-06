@@ -20,7 +20,7 @@ In the repository page for `learning-project`, click Code, and select HTTPS. Cop
 
 Clone the `learning-project` repo using the `git` CLI or the desktop app. You'll need to type in your password.
 
-```
+```sh
 cd ~/workspace
 git clone https://github.com/Manifaust/learning-project.git
 ```
