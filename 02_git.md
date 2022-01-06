@@ -21,8 +21,8 @@ In the repository page for `learning-project`, click Code, and select HTTPS. Cop
 Clone the `learning-project` repo using the `git` CLI or the desktop app. You'll need to type in your password.
 
 ```sh
-cd ~/workspace
-git clone https://github.com/Manifaust/learning-project.git
+$ cd ~/workspace
+$ git clone https://github.com/Manifaust/learning-project.git
 ```
 
 This will create a new directory in your workspace directory named learning-project, and clone the repository contents into that directory.
@@ -52,7 +52,7 @@ Open `README.md` and make some changes.
 Go back to the terminal and navigate to your learning-project directory.
 
 ```sh
-cd ~/workspace/learning-project
+$ cd ~/workspace/learning-project
 ```
 
 To get an overview of what changes you've made, use `git status`.
@@ -81,7 +81,7 @@ This tells me that `README.md` has changed, and that I haven't staged those chan
 Stage the changes we mad to `README.md` using `git add`.
 
 ```sh
-git add README.md
+$ git add README.md
 ```
 
 For example:
@@ -100,7 +100,7 @@ Changes to be committed:
 Git tells us that `README.md` has been stages. And it will be included in the next commit. Now lets commit the change using `git commit`.
 
 ```sh
-git commit -m <some message>
+$ git commit -m <some message>
 ```
 
 `git commit` takes a commit message that gets recorded along with the related changes.
@@ -121,7 +121,7 @@ Your branch is ahead of 'origin/main' by 1 commit.
 Now we will push the changes using `git push`. For example:
 
 ```sh
-git push
+$ git push
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Writing objects: 100% (3/3), 289 bytes | 289.00 KiB/s, done.

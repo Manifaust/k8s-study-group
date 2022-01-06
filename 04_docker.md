@@ -39,7 +39,7 @@ CMD ["/app/main"]
 Use `docker build`. 
 
 ```sh
-docker build -t my-go-app .
+$ docker build -t my-go-app .
 ```
 
 `my-go-app` is the name we want for the image, and the `.` at the end means use the `Dockerfile` that's found in the current directory.
@@ -55,7 +55,7 @@ my-go-app    latest   a3949a8e7309   6 minutes ago   947MB
 Run the image using `docker run`. This command will run the image indefinitely and take over your terminal. To stop the server and regain control of the termainl, hit Ctrl-C.
 
 ```sh
-docker run -p 80:80 -it my-go-app
+$ docker run -p 80:80 -it my-go-app
 ```
 
 This commands creates a container to run the image, and forwards all traffic from port 80 from the container to port 80 on your local machine, and vise versa.
@@ -102,7 +102,7 @@ When the command finish your image is available on Dockerhub. You can see it in 
 If your friend wants to run your application, you can tell them to execute `docker run` pointing to your image name:
 
 ```sh
-docker run -p 80:80 -it manifaust/my-go-app:latest
+$ docker run -p 80:80 -it manifaust/my-go-app:latest
 ```
 
 Now they can run your server without setting up Go, or even know what language it's written in or what dependencies it has.
