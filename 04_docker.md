@@ -42,7 +42,7 @@ Use `docker build`.
 $ docker build -t my-go-app .
 ```
 
-`my-go-app` is the name we want for the image, and the `.` at the end means use the `Dockerfile` that's found in the current directory.
+`my-go-app` is the name we want for the image, and the `.` at the end means use the `Dockerfile` that's found in the current directory. The `-t` option specifies the name, and optionally a tag in the 'name:tag' format, or the image.
 
 Use `docker image list` to see some information about your newly built image. For example:
 
@@ -58,7 +58,7 @@ Run the image using `docker run`. This command will run the image indefinitely a
 $ docker run -p 80:80 -it my-go-app
 ```
 
-This commands creates a container to run the image, and forwards all traffic from port 80 from the container to port 80 on your local machine, and vise versa.
+This commands creates a container to run the image, and forwards all traffic (through the `-p` option) from port 80 from the container to port 80 on your local machine, and vise versa. The `-it` option instructs Docker to allocate a proxy command-line interface connected to the container’s command input; creating an interactive bash shell in the container.
 
 While the server is running, go to your browser and go to [`http://localhost`](http://localhost) again. You should see the same message you saw before.
 
